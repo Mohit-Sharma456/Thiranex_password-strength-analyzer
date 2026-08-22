@@ -4,12 +4,14 @@
 A Python-based Cybersecurity Password Assessment Tool that analyzes password strength using multiple security checks and provides a security score, entropy estimation, password reuse detection, and recommendations for creating stronger passwords.
 
 
+
 📌 About This Project
 Password Strength Analyzer is a Python-based cybersecurity application designed to evaluate the security strength of passwords. It analyzes passwords based on length, character diversity, uppercase/lowercase letters, numbers, special characters, repeated patterns, sequential patterns, common passwords, and estimated entropy.
 
 The application generates a password security score and classifies the password according to its strength level. It also provides security recommendations to help users create stronger and more secure passwords.
 
 The project includes a strong password generator using Python's secrets module and a password reuse detection system using SQLite. Passwords are not stored directly in the database. Instead, the application converts them into SHA-256 hashes before storing them, demonstrating the basic concept of secure credential storage.
+
 
 
 🎯 Project Objective
@@ -26,8 +28,9 @@ To demonstrate password hashing.
 To generate strong random passwords.
 To provide users with security recommendations.
 To demonstrate practical cybersecurity concepts using Python.
-🛠️ Technologies Used
 
+
+🛠️ Technologies Used
 
 Technology Purpose
 Python Core programming language
@@ -39,7 +42,9 @@ re Pattern and character detection
 math Entropy calculation
 string Character sets
 
-✨ Features 🔍 Password Analysis
+
+✨ Features 
+🔍 Password Analysis
 
 The application performs multiple password-security checks:
 
@@ -55,9 +60,9 @@ The application performs multiple password-security checks:
 ✅ Entropy estimation
 
 
+
 🔑 Secure Password Generation
 The project uses Python's built-in secrets module to generate random passwords.
-
 Example: Generated Password: X7@pL9#vQ2!mR8$k
 
 The generator ensures that the generated password contains characters from multiple categories.
